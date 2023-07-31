@@ -1,4 +1,4 @@
-# bike_share_case_study
+# Bike Share Case Study
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -10,7 +10,7 @@
 - [Conclusion & Recommendation](#conclusion--recommendation)
 
 ## Introduction
-This README.md file provides an overview of the data analytics case study on Cyclistic's bike-share program. It outlines the business task, data source, data processing, analysis, key findings, and concludes with recommendations for the marketing team.
+This README.md file provides an overview of the data analytics case study on Cyclistic's bike-share program. It outlines the business task, data source, data processing, analysis, key findings, and concludes with recommendations for the marketing team. In this case study, ***BigQuery*** is used to process and clean the data and ***RStudio*** is used to analyse and create the visuals. 
 
 ## Business Task
 Cyclistic's marketing team aims to design strategies for converting casual riders into annual members. This case study will analyze historical bike trip data to identify trends and insights that can help achieve this goal.
