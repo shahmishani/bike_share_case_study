@@ -16,24 +16,17 @@ This README.md file provides an overview of the data analytics case study on Cyc
 Cyclistic's marketing team aims to design strategies for converting casual riders into annual members. This case study will analyze historical bike trip data to identify trends and insights that can help achieve this goal.
 
 ## Data Source
-The data used for analysis is sourced from Cyclistic's bike trip records. It includes the following 13 fields:
-- ride_id: A unique identifier for each bike ride trip.
-- rideable_type: The type of bike used for the ride (e.g., electric bike, regular bike, etc.).
-- started_at: Timestamp indicating when the bike ride trip started.
-- ended_at: Timestamp indicating when the bike ride trip ended.
-- start_station_name: The name of the station where the bike ride trip started.
-- start_station_id: A unique identifier for the station where the bike ride trip started.
-- end_station_name: The name of the station where the bike ride trip ended.
-- end_station_id: A unique identifier for the station where the bike ride trip ended.
-- start_lat: The latitude coordinate of the starting location of the bike ride trip.
-- start_lng: The longitude coordinate of the starting location of the bike ride trip.
-- end_lat: The latitude coordinate of the ending location of the bike ride trip.
-- end_lng: The longitude coordinate of the ending location of the bike ride trip.
-- member_casual: Indicates whether the rider is a casual rider or an annual member.
+- The source of the public data is from Motivate International Inc. (Divvy Bicycle Sharing Service from Chicago) under this [license](https://ride.divvybikes.com/data-license-agreement).
+
+- The data used is from July 2022 until Jun 2023 (12 Months).
+
+- The data used for analysis is sourced from Cyclistic's bike trip records. It includes the following 13 fields:
+  - ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng, member_casual
 
 ## Processing & Cleaning
-- Combine 12 tables from the date 2022-07 to 2023-06 using this code  [View SQL Code](./combined_table.sql)
-The data will be cleaned and processed to handle missing values, convert data types, standardize values, and remove outliers.
+- Combine 12 tables from the date 2022-07 to 2023-06 using this code  [View SQL Code](./combined_table.sql).
+
+- Data Cleaning: missing values, convert data types, standardize values.
 
 ## Analysis
 The analysis will include the following key metrics:
