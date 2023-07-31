@@ -34,31 +34,35 @@ The analysis will include the following key metrics:
 
   - The total number of trips from July 2022 until Jun 2023 is 4,409,089.
 ### Proportion of trips by User
-  ![totalpie](https://github.com/shahmishani/bike_share_case_study/assets/141004999/76d35b22-34c6-47fa-8921-3c75e9fc7646)
+<img src="https://github.com/shahmishani/bike_share_case_study/assets/141004999/76d35b22-34c6-47fa-8921-3c75e9fc7646" alt="totalpie" width="500">
 
   - Majority of the user is a member (62%) and less than half is a casual user (38%) throughout 12 months. 
 
 ### Trips by User per month
-![average_users_month](https://github.com/shahmishani/bike_share_case_study/assets/141004999/e9b6428a-5420-4a54-9d44-7e7973bee2df)
-
+<img src="https://github.com/shahmishani/bike_share_case_study/assets/141004999/e9b6428a-5420-4a54-9d44-7e7973bee2df" alt="average_users_month" width="600">
+  
   - The average number of registered members is consistently higher than the number of casual users throughout the year.
     
   - There is a gradual decline in the user base towards the end of each year.
     
   - Conversely, there is a gradual increase in the number of users towards the middle months of the year.
 ### Average Trip Duration
-  ![average_duration_month](https://github.com/shahmishani/bike_share_case_study/assets/141004999/7e20d571-68d1-45e0-aaa7-ac28a2f7ce49)
+  <img src="https://github.com/shahmishani/bike_share_case_study/assets/141004999/7e20d571-68d1-45e0-aaa7-ac28a2f7ce49" alt="average_duration_month" width="600">
+  
   - The average duration of bike rides for casual members is consistently higher than the number of casual users throughout the year.
     
   - For casual users, there is a gradual decline in the duration of rides towards the end of each year. After that, there is a gradual increase in the duration towards the middle months of the year.
     
   - However for registered member the duration of the ride did not change much throughout the year (13mins to 10mins)
     
-![average_duration](https://github.com/shahmishani/bike_share_case_study/assets/141004999/9028410c-d441-4204-9cb9-d75c1e9cc6b7)
+<img src="https://github.com/shahmishani/bike_share_case_study/assets/141004999/9028410c-d441-4204-9cb9-d75c1e9cc6b7" alt="average_duration" width="600">
+  
   - The average duration for casual user almost double (22.5 mins) compared to the average duration for member user (12.10 mins).
     
 ### Average Trip Distance
-![average_distance](https://github.com/shahmishani/bike_share_case_study/assets/141004999/45840d4f-1d40-4862-96f3-ce2e3ddd30eb)
+
+<img src="https://github.com/shahmishani/bike_share_case_study/assets/141004999/45840d4f-1d40-4862-96f3-ce2e3ddd30eb" alt="average_distance" width="600">
+  
   - The average distance traveled for both type of users is relatively the same where 2.14km for casual users and 2.06km for member users.
 
 ## Key Findings
