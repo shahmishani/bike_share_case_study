@@ -32,48 +32,7 @@ The data used for analysis is sourced from Cyclistic's bike trip records. It inc
 - member_casual: Indicates whether the rider is a casual rider or an annual member.
 
 ## Processing & Cleaning
-Combine 12 tables: 
-```sql
-WITH combined_table AS (
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202207`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202208`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202209`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202210`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202211`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202212`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202301`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202302`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202303`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202304`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202305`
-  UNION ALL
-  SELECT *
-  FROM `da-practise-390405.bike_trip.202306`
-)
-SELECT *
-FROM combined_table;
-```
+- Combine 12 tables from the date 2022-07 to 2023-06 using this code  [View SQL Code](./combined_table.sql)
 The data will be cleaned and processed to handle missing values, convert data types, standardize values, and remove outliers.
 
 ## Analysis
