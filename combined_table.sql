@@ -1,0 +1,40 @@
+--Compile 12 tables from 2022-07 to 2023-06
+WITH combined_table AS (
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202207`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202208`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202209`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202210`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202211`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202212`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202301`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202302`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202303`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202304`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202305`
+  UNION ALL
+  SELECT *
+  FROM `da-practise-390405.bike_trip.202306`
+)
+SELECT *
+FROM combined_table;
