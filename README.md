@@ -26,9 +26,11 @@ Cyclistic's marketing team aims to design strategies for converting casual rider
 ## Processing & Cleaning
 - Combine 12 tables from the date 2022-07 to 2023-06 using this code  [View SQL Code](./combined_table.sql).
 
-- Data Cleaning: missing values,remove duplicate, convert data types, standardize values [View SQL Code](./data_cleaning.sql).
+- Data Cleaning: missing values, remove duplicate, convert data types, standardize values [View SQL Code](./data_cleaning.sql).
 
 ## Analysis
+Here is the link to the coding for the visuals that are done in the RStudio: [View R Code](./coding_for_visual_RStudio.R)
+
 The analysis will include the following key metrics:
 ### Total Trips
 
